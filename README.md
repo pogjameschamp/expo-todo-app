@@ -1,6 +1,6 @@
 # 📝 To-Do List App
 
-A sleek, modern, and intuitive To-Do List app built with **React Native**, **Zustand**, and **React Native Paper**. It features local persistence using **AsyncStorage**, swipe-to-delete, edit functionality, and full-screen modals for task management.
+This is my To-Do List app built with **React Native**, **Zustand**, and **React Native Paper**. It features local persistence using **AsyncStorage**, swipe-to-delete, edit functionality, and full-screen modals for task management.
 
 ---
 
@@ -11,7 +11,6 @@ A sleek, modern, and intuitive To-Do List app built with **React Native**, **Zus
 - Swipe to delete a task with visual feedback
 - Persistent storage with AsyncStorage
 - Full-screen modals for adding/editing tasks
-- Date & time stamp on each to-do
 - Responsive, mobile-friendly layout
 
 ---

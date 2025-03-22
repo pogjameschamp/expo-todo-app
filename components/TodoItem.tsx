@@ -8,7 +8,7 @@ import {
 import { Text, IconButton } from "react-native-paper";
 import { useTodoStore, Todo } from "../hooks/useTodoStore";
 import { SwipeListView } from "react-native-swipe-list-view";
-import TodoModal from "./TodoModal"; // ✅ Import the modal component
+import TodoModal from "./TodoModal";
 
 export default function TodoItem({ todo }: { todo: Todo }) {
   const { removeTodo, editTodo } = useTodoStore();
@@ -24,8 +24,8 @@ export default function TodoItem({ todo }: { todo: Todo }) {
   return (
     <>
       <SwipeListView
-        data={[todo]} // ✅ Must be an array
-        keyExtractor={(item) => item.id.toString()} // ✅ Required unique key
+        data={[todo]} 
+        keyExtractor={(item) => item.id.toString()} 
         onRowOpen={() => setIsSwiped(true)}
         onRowClose={() => setIsSwiped(false)}
 
@@ -34,7 +34,7 @@ export default function TodoItem({ todo }: { todo: Todo }) {
             style={styles.listView}
             underlayColor="#936639"
             activeOpacity={1}
-            onPress={() => setIsEditing(true)} // ✅ Open Modal on Press
+            onPress={() => setIsEditing(true)}
           >
             <View>
               <Text style={isSwiped ? styles.swipedTodoText : styles.todoText}>
@@ -59,7 +59,6 @@ export default function TodoItem({ todo }: { todo: Todo }) {
         leftOpenValue={75}
       />
 
-      {/* ✅ Full-Screen Modal for Editing Todos */}
       <TodoModal
         visible={isEditing}
         onClose={() => setIsEditing(false)}
@@ -77,7 +76,7 @@ const styles = StyleSheet.create({
     minHeight: 85,
     width: "100%",
     padding: 15,
-    justifyContent: "space-between", // ✅ Space items
+    justifyContent: "space-between",
     marginBottom: 15,
     borderRadius: 10,
   },
@@ -114,7 +113,7 @@ const styles = StyleSheet.create({
   todoDate: {
     fontSize: 10,
     letterSpacing: 1,
-    color: "#b6ad90", // ✅ Match design
+    color: "#b6ad90",
     textAlign: "right",
     textTransform: "uppercase",
     marginTop: 10,
