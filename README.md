@@ -30,7 +30,7 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 | Home Screen | Adding a Todo | Swiped Todo |
 |-------------|----------------|--------------|
-
+| ![Home](./showcase/screenshot1.png) | ![Add](./showcase/screenshot2.png) | ![Swipe](./showcase/screenshot3.png) |
 
 ---
 
