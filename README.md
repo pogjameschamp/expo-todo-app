@@ -36,8 +36,9 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ## Demo
 
-![Todo App Demo](./assets/demo.gif)
-
+<p align="center">
+  <img src="./assets/demo.gif" alt="Todo App Demo" width="300"/>
+</p>
 ---
 
 ##  Getting Started
