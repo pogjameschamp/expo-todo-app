@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# 📝 To-Do List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek, modern, and intuitive To-Do List app built with **React Native**, **Zustand**, and **React Native Paper**. It features local persistence using **AsyncStorage**, swipe-to-delete, edit functionality, and full-screen modals for task management.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+- Add, edit, and delete to-dos effortlessly
+- Beautiful UI using React Native Paper
+- Swipe to delete a task with visual feedback
+- Persistent storage with AsyncStorage
+- Full-screen modals for adding/editing tasks
+- Date & time stamp on each to-do
+- Responsive, mobile-friendly layout
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧠 Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native**
+- **React Native Paper**
+- **Zustand** (for state management)
+- **AsyncStorage** (for local persistence)
+- **SwipeListView** (for swipe-to-delete)
+- **Expo**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 App Screenshots
 
-## Get a fresh project
+| Home Screen | Adding a Todo | Swiped Todo |
+|-------------|----------------|--------------|
+| ![Home](./showcase/screenshot1.png) | ![Add](./showcase/screenshot2.png) | ![Swipe](./showcase/screenshot3.png) |
 
-When you're ready, run:
+> 💡 To add your own screenshots, place them in a `showcase/` folder and update the paths accordingly.
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/todo-app.git
+cd todo-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Run on Expo
+npx expo start
