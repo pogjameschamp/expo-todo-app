@@ -7,11 +7,10 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 ##  Features
 
 - Add, edit, and delete to-dos effortlessly
-- Beautiful UI using React Native Paper
+- Responsive UI using React Native Paper
 - Swipe to delete a task with visual feedback
 - Persistent storage with AsyncStorage
 - Full-screen modals for adding/editing tasks
-- Responsive, mobile-friendly layout
 
 ---
 
