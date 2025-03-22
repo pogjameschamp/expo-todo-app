@@ -26,11 +26,7 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
-<<<<<<< HEAD
 ## 📸 App Screenshots (From my own phone)
-=======
-##  App Screenshots
->>>>>>> ee38094cd32740c1c516a56fd55265dfd3996a5a
 
 | Home Screen | Adding a Todo | Swiped Todo |
 |-------------|----------------|--------------|
@@ -50,3 +46,4 @@ npm install
 
 # Run on Expo
 npx expo start
+
