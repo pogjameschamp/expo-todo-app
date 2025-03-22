@@ -26,7 +26,7 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
-## 📸 App Screenshots
+## 📸 App Screenshots (From my own phone)
 
 | Home Screen | Adding a Todo | Swiped Todo |
 |-------------|----------------|--------------|
