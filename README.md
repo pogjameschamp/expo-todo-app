@@ -34,6 +34,12 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
+## Demo
+
+![Todo App Demo](./assets/demo.gif)
+
+---
+
 ##  Getting Started
 
 ```bash
