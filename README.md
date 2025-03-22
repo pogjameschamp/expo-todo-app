@@ -4,7 +4,7 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
-## 📱 Features
+##  Features
 
 - Add, edit, and delete to-dos effortlessly
 - Beautiful UI using React Native Paper
@@ -15,7 +15,7 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - **React Native**
 - **React Native Paper**
@@ -26,7 +26,11 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
+<<<<<<< HEAD
 ## 📸 App Screenshots (From my own phone)
+=======
+##  App Screenshots
+>>>>>>> ee38094cd32740c1c516a56fd55265dfd3996a5a
 
 | Home Screen | Adding a Todo | Swiped Todo |
 |-------------|----------------|--------------|
@@ -34,7 +38,7 @@ This is my To-Do List app built with **React Native**, **Zustand**, and **React 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 # Clone the repository
