@@ -49,11 +49,11 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   appbar: {
-    backgroundColor: "#7f4f24",
+    backgroundColor: "#322521",
   },
   container: {
     flex: 1,
-    backgroundColor: "#7f4f24",
+    backgroundColor: "#322521",
   },
   listContainer: {
     flex: 1,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     alignSelf: "center",
     bottom: 40,
-    backgroundColor: "#936639",
+    backgroundColor: "#4E3A31",
   },
   modalContainer: {
     flex: 1,

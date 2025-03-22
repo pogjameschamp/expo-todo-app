@@ -77,7 +77,7 @@ export default function TodoModal({
 const styles = StyleSheet.create({
   modalContainer: {
     flex: 1,
-    backgroundColor: "#7f4f24",
+    backgroundColor: "#322521",
     justifyContent: "center",
     padding: 20,
   },
@@ -101,6 +101,6 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   modalButton: {
-    backgroundColor: "#a98467",
+    backgroundColor: "#4E3A31",
   },
 });

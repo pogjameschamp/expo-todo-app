@@ -72,7 +72,7 @@ export default function TodoItem({ todo }: { todo: Todo }) {
 
 const styles = StyleSheet.create({
   listView: {
-    backgroundColor: "#936639",
+    backgroundColor: "#4E3A31",
     minHeight: 85,
     width: "100%",
     padding: 15,
